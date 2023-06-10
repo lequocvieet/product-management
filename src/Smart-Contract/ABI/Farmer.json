@@ -20087,10 +20087,16 @@
       "links": {},
       "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
       "transactionHash": "0x006bfa0088b705210eb27254b1918a920ef01e14ed9f8e699f8446b54d0a355c"
+    },
+    "1686364031318": {
+      "events": {},
+      "links": {},
+      "address": "0xB8C19056f4741922deDc6e5E8495c751eC58a227",
+      "transactionHash": "0x637956eda8741dc15cc2a2664a971f9ef506ae807c2c8dca5daffe33e29998de"
     }
   },
   "schemaVersion": "3.4.14",
-  "updatedAt": "2023-06-10T02:12:25.582Z",
+  "updatedAt": "2023-06-10T02:27:48.979Z",
   "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
