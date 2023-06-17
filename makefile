@@ -9,4 +9,5 @@ deploy_testnet:
 setup:
 	cd src/Smart-Contract && truffle exec Scripts/setup-app.js
 start:
-	npm run start
+	. ${NVM_DIR}/nvm.sh && nvm use 10.16.0  && npm run start
+	

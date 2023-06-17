@@ -10,6 +10,8 @@ const Header = () => {
   const [isNavOpen, setIsNavOpen] = useState(false);
   const isAuthenticated = authState.isAuthenticated;
   const role = authState.stakeholder.role;
+  console.log("role",role);
+  console.log("auth")
   const style = {
     authButton: {
       fontWeight: 'bolder',
@@ -81,7 +83,7 @@ const Header = () => {
       >
         <NavbarBrand>
           <img src={logo} />
-          Global Supply Solutions
+          Web3 Products Management
         </NavbarBrand>
         <NavbarToggler onClick={toggleNav} >
           {isNavOpen?
