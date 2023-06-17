@@ -42,7 +42,7 @@ const Products = () => {
             products[productIds[i]] = product;
           }
         }
-        console.log(products)
+        //console.log(products)
         setProducts(products);
       })();
     }
